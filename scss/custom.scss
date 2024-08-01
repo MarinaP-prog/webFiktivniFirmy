@@ -1,0 +1,99 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato/Lato-Regular.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'Lato';
+        src: url(../fonts/Lato/Lato-Bold.ttf) format(truetype);
+        font-weight: 700;
+        font-style: bold;
+        }
+// Include any default variable overrides here (though functions won't be available)
+$primary: rgb(166, 118, 228);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #1f1d1d;
+    
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/background-2.jpg");
+}
+header {
+    position: relative;
+    min-height: 100vh;
+  z-index: 1;
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.05);
+        z-index: -1;
+    }
+
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.6);
+        .brand {
+            font-size: 2rem;
+            color: $primary;
+            z-index: 9001;
+        }
+    
+        .nav-link:hover,
+        .nav-link:focus {
+            transition: border 0.2s;
+            border-bottom: 1px solid #ffffff;
+            margin-bottom: -1px;
+        }
+}
+.header-banner {
+    min-height: 100vh;
+
+    .btn {
+        font-size: 1.5rem;
+        border-radius: 2rem;
+    }
+}
+
+// .header-content {
+//     // z-index: 2;
+// }
+}
+
+
+main {
+    section {
+      padding-top: 75px;
+      
+    }
+    
+      .btn {
+        color: inherit;
+        width: 100%;
+        background-color: transparent;
+      }
+  
+      .btn:hover{
+        background-color: var(--bs-btn-bg);
+      }
+
+      .fs-4 {
+        color: $primary;
+        font-family: 'Lato', sans-serif;
+      }
+      p>a {
+        list-style-type: none;
+      }
+    
+  }
