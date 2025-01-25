@@ -1,269 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./scss/custom.css">
-        <title>Marina Pavolova</title>
-    </head>
-    <body>
-                <header
-                class="d-flex py-3 mb-4 ">
-                <div class="overlay"></div>
-                <div class="container-fluid">
-            <!-- <a href="#"
-                class="d-flex align-items-center mb-md-0  link-body-emphasis text-decoration-none">
-                <span class="fs-4 justify-content-start">Fiktivni</span>
-            </a> -->
-            <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <ul class="nav nav-pills justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#products">Products</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#pricing">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacts">Contacts</a>
-                </li>
-            </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/custom.css">
+    <title>Marina Pavolova</title>
+</head>
+
+<body>
+    <header>
+        <div class="overlay"></div>
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(229, 220, 209); z-index: 1000;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-
-        <section id="home"
-            class="header-banner d-flex justify-content-center align-items-center">
+    
+        <section id="home" class="header-banner d-flex justify-content-center align-items-center" style="padding-top: 80px;">
             <div class="header-content container text-muted text-center">
-                <h3 class="text-uppercase display-5 m-0">Lorem ipsum dolor sit
-                    amet.</h3>
+                <h3 class="text-uppercase display-5 m-0">Lorem ipsum dolor sit amet.</h3>
                 <h1 class="text-uppercase display-2">Fiktivni web</h1>
-                <p class="d-none d-md-block">Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Placeat, atque!</p>
-
-                <!-- Button trigger modal -->
-
-                <button type="button"
-                    class="btn btn-lg btn-primary text-uppercase px-5"
-                    data-bs-toggle="modal" data-bs-target="#modal">Cookie
-                    settings</button>
-                </div>
-            </section>
-        </header>
-
-        <!-- main -->
-
-        <section id="about">
-            <div class="container mb-5">
-                <div class="row">
-                    <div class="col-12 col-md-8  p-4 equal-height-col ">
-                        <div id="carouselSlides"
-                            class="carousel slide"
-                            data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button type="button"
-                                    data-bs-target="#carouselSlides"
-                                    data-bs-slide-to="0" class="active"
-                                    aria-current="true"
-                                    aria-label="Slide 1"></button>
-                                <button type="button"
-                                    data-bs-target="#carouselSlides"
-                                    data-bs-slide-to="1"
-                                    aria-label="Slide 2"></button>
-                                <button type="button"
-                                    data-bs-target="#carouselSlides"
-                                    data-bs-slide-to="2"
-                                    aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="./images/carousel-1.jpg"
-                                        class="d-block w-100"
-                                        alt="Orange tree">
-                                    <div
-                                        class="carousel-caption d-none d-md-block">
-                                        <h5>Local fruits</h5>
-                                        <p>Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit.
-                                            Possimus, placeat.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./images/carousel-2.jpg"
-                                        class="d-block w-100"
-                                        alt="Our store">
-                                    <div
-                                        class="carousel-caption d-none d-md-block">
-                                        <h5>Our store</h5>
-                                        <p>Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit.
-                                            Possimus, placeat.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./images/carousel-3.jpg"
-                                        class="d-block w-100"
-                                        alt="Pumpkins">
-                                    <div
-                                        class="carousel-caption d-none d-md-block">
-                                        <h5>Local vegetables</h5>
-                                        <p>Lorem ipsum dolor sit amet
-                                            consectetur adipisicing elit.
-                                            Possimus, placeat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev"
-                                type="button"
-                                data-bs-target="#carouselSlides"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"
-                                    aria-hidden="true"></span>
-                                <span
-                                    class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next"
-                                type="button"
-                                data-bs-target="#carouselSlides"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon"
-                                    aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-                    <article
-                        class="col-12 col-md-4 position-relative  p-4 equal-height-col ">
-                        <h3 class="column-title text-center m-4 custom"
-                            style="color: rgb(166, 118, 228); font-family: 'Lato'; font-weight: 700;">Lorem
-                            ipsum dolor
-                            sit.</h3>
-                        <p class="m-4">Lorem ipsum dolor sit amet
-                            consectetur
-                            adipisicing elit. Eos
-                            exercitationem ratione pariatur praesentium
-                            fugiat
-                            consectetur
-                            aliquam amet sed, aperiam <span class="fs-4"
-                                style="color: rgb(166, 118, 228); font-family: 'Lato'; font-weight: 700;">repellendus</span>
-                            vitae earum
-                            doloribus
-                            impedit tenetur error modi vel necessitatibus
-                            natus! Lorem ipsum dolor, sit amet consectetur
-                            adipisicing elit. Voluptatibus, <span
-                                class="fs-4"
-                                style="color: rgb(166, 118, 228); font-family: 'Lato'; font-weight: 700;">voluptas
-                                rerum</span> ea accusamus dolorum cum culpa
-                            id iste et consequatur? Nulla voluptatibus eaque
-                            in laudantium vel libero modi blanditiis
-                            necessitatibus?
-                            Officiis laudantium voluptate quis. <span
-                                class="fs-4"
-                                style="color: rgb(166, 118, 228); font-family: 'Lato'; font-weight: 700;">Quisquam,
-                                quos?</span> Saepe velit quis reiciendis
-                            error hic tempore voluptatibus? Doloremque at
-                            praesentium impedit unde, distinctio ea magnam
-                            dolor, minima repellendus sint deserunt rem
-                            nesciunt placeat?</p>
-                    </article>
-                </div>
+                <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, atque!</p>
+    
+                <button type="button" class="btn btn-lg btn-primary text-uppercase px-5" data-bs-toggle="modal"
+                    data-bs-target="#modal">Cookie settings</button>
             </div>
         </section>
-        <section id="products">
-            <div class="container px-4 py-5">
-                <div
-                    class="row g-4 py-5 row-cols-1 row-cols-lg-3  text-center">
-                    <div class="feature col">
-                        <div
-                            class="d-inline-flex align-items-center justify-content-center fs-2">
-                            <img src="./images/local-fruits.jpg"
-                                alt="Local fruits" class="img-fluid rounded" style="width: 90%; height: auto;">
+    </header>
+    
+
+    <!-- main -->
+
+    <section id="about">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12 col-md-8  p-4 equal-height-col ">
+                    <div id="carouselSlides" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselSlides" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselSlides" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselSlides" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
                         </div>
-                        <h2 class="text-uppercase p-3">Local fruits</h2>
-                        <p>Paragraph of text beneath the heading to explain
-                            the heading. We'll add onto it with another
-                            sentence and probably just keep going until we
-                            run out of words.</p>
-                            <a class="icon-link icon-link-hover float-end" href="#">
-                                Read
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                                  </svg>
-                              </a>
-
-                    </div>
-                    <div class="feature col">
-                        <div
-                            class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                            <img src="./images/local-vegetables.jpg"
-                                alt="Local vegetables" class="img-fluid rounded" style="width: 90%; height: auto;">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/carousel-1.jpg" class="d-block w-100" alt="Orange tree">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Local fruits</h5>
+                                    <p>Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Possimus, placeat.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/carousel-2.jpg" class="d-block w-100" alt="Our store">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Our store</h5>
+                                    <p>Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Possimus, placeat.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/carousel-3.jpg" class="d-block w-100" alt="Pumpkins">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Local vegetables</h5>
+                                    <p>Lorem ipsum dolor sit amet
+                                        consectetur adipisicing elit.
+                                        Possimus, placeat.</p>
+                                </div>
+                            </div>
                         </div>
-                        <h2 class="text-uppercase p-3">Local vegetables</h2>
-
-                        <p>Paragraph of text beneath the heading to explain
-                            the heading. We'll add onto it with another
-                            sentence and probably just keep going until we
-                            run out of words.</p>
-                            <a class="icon-link icon-link-hover float-end" href="#">
-                                Read
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                                  </svg>
-                              </a>
-
-                    </div>
-                    <div class="feature col">
-                        <div
-                            class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                            <img src="./images/recepies.jpg" alt="recepies"
-                                class="img-fluid rounded" style="width: 90%; height: auto;">
-                        </div>
-                        <h2 class="text-uppercase p-3">Our recepies</h2>
-
-                        <p>Paragraph of text beneath the heading to explain
-                            the heading. We'll add onto it with another
-                            sentence and probably just keep going until we
-                            run out of words.</p>
-                            <a class="icon-link icon-link-hover float-end" href="#">
-                                Read
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                                  </svg>
-                              </a>
-
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlides"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselSlides"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
+                <article class="col-12 col-md-4 position-relative  p-4 equal-height-col ">
+                    <h3 class="column-title text-center m-4 custom"
+                        style="color: rgb(166, 118, 228); font-family: 'Lato'; font-weight: 700;">Lorem
+                        ipsum dolor
+                        sit.</h3>
+                    <p class="m-4">Lorem ipsum dolor sit amet
+                        consectetur
+                        adipisicing elit. Eos
+                        exercitationem ratione pariatur praesentium
+                        fugiat
+                        consectetur
+                        aliquam amet sed, aperiam <span class="fs-4"
+                            style="color: rgb(166, 118, 228); font-family: 'Lato'; font-weight: 700;">repellendus</span>
+                        vitae earum
+                        doloribus
+                        impedit tenetur error modi vel necessitatibus
+                        natus! Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Voluptatibus, <span class="fs-4"
+                            style="color: rgb(166, 118, 228); font-family: 'Lato'; font-weight: 700;">voluptas
+                            rerum</span> ea accusamus dolorum cum culpa
+                        id iste et consequatur? Nulla voluptatibus eaque
+                        in laudantium vel libero modi blanditiis
+                        necessitatibus?
+                        Officiis laudantium voluptate quis. <span class="fs-4"
+                            style="color: rgb(166, 118, 228); font-family: 'Lato'; font-weight: 700;">Quisquam,
+                            quos?</span> Saepe velit quis reiciendis
+                        error hic tempore voluptatibus? Doloremque at
+                        praesentium impedit unde, distinctio ea magnam
+                        dolor, minima repellendus sint deserunt rem
+                        nesciunt placeat?</p>
+                </article>
             </div>
-        </section>
+        </div>
+    </section>
+    <section id="products">
+        <div class="container px-4 py-5">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3  text-center">
+                <div class="feature col">
+                    <div class="d-inline-flex align-items-center justify-content-center fs-2">
+                        <img src="./images/local-fruits.jpg" alt="Local fruits" class="img-fluid rounded"
+                            style="width: 90%; height: auto;">
+                    </div>
+                    <h2 class="text-uppercase p-3">Local fruits</h2>
+                    <p>Paragraph of text beneath the heading to explain
+                        the heading. We'll add onto it with another
+                        sentence and probably just keep going until we
+                        run out of words.</p>
+                    <a class="icon-link icon-link-hover float-end" href="#">
+                        Read
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </a>
 
-        <section id="pricing" class="table-responsive p-5 mx-auto"
-            style="width: 80%;">
-            <div class="container-sm">
-                <h1 class="text-emphasis text-center p-2">Our prices</h1>
+                </div>
+                <div class="feature col">
+                    <div class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <img src="./images/local-vegetables.jpg" alt="Local vegetables" class="img-fluid rounded"
+                            style="width: 90%; height: auto;">
+                    </div>
+                    <h2 class="text-uppercase p-3">Local vegetables</h2>
+
+                    <p>Paragraph of text beneath the heading to explain
+                        the heading. We'll add onto it with another
+                        sentence and probably just keep going until we
+                        run out of words.</p>
+                    <a class="icon-link icon-link-hover float-end" href="#">
+                        Read
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </a>
+
+                </div>
+                <div class="feature col">
+                    <div class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <img src="./images/recepies.jpg" alt="recepies" class="img-fluid rounded"
+                            style="width: 90%; height: auto;">
+                    </div>
+                    <h2 class="text-uppercase p-3">Our recepies</h2>
+
+                    <p>Paragraph of text beneath the heading to explain
+                        the heading. We'll add onto it with another
+                        sentence and probably just keep going until we
+                        run out of words.</p>
+                    <a class="icon-link icon-link-hover float-end" href="#">
+                        Read
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="pricing" class="table-responsive p-5 mx-auto" style="width: 80%;">
+        <div class="container-sm">
+            <h1 class="text-emphasis text-center p-2">Our prices</h1>
+            <table class="table table-bordered border-primary">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Sluzba</th>
+                        <th scope="col">Popis</th>
+                        <th scope="col">Cena</th>
+                    </tr>
+                </thead>
+                <tbody class>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Lorem, ipsum.</td>
+                        <td class=" text-wrap">Lorem, ipsum dolor. Lorem
+                            ipsum dolor sit amet consectetur adipisicing
+                            elit. Ex, reiciendis quod, in accusamus
+                            assumenda excepturi corporis accusantium
+                            eveniet quis eligendi voluptates
+                            necessitatibus ullam molestias natus,
+                            doloremque praesentium repudiandae?
+                            Aspernatur, qui!</td>
+                        <td>123,5 Kc</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Lorem, ipsum dolor.</td>
+                        <td>Lorem ipsum dolor sit amet.</td>
+                        <td>623.8 Kc</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Lorem, ipsum.</td>
+                        <td>Lorem, ipsum dolor.</td>
+                        <td>732.9 Kc</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section> -->
+
+    <section id="pricing" class=" mx-auto" style="width: 80%; position: relative; z-index: 1;">
+        <div class="container-sm">
+            <h1 class="text-emphasis text-center p-2">Our prices</h1>
+            <div class="table-responsive">
                 <table class="table table-bordered border-primary">
-                    <thead>
+                    <thead class="table-primary text-center">
                         <tr>
                             <th scope="col">#</th>
-                            <th scope="col">Sluzba</th>
+                            <th scope="col">Služba</th>
                             <th scope="col">Popis</th>
                             <th scope="col">Cena</th>
                         </tr>
                     </thead>
-                    <tbody class>
+                    <tbody>
                         <tr>
                             <th scope="row">1</th>
                             <td>Lorem, ipsum.</td>
-                            <td class=" text-wrap">Lorem, ipsum dolor. Lorem
+                            <td class="text-wrap">Lorem, ipsum dolor. Lorem
                                 ipsum dolor sit amet consectetur adipisicing
                                 elit. Ex, reiciendis quod, in accusamus
                                 assumenda excepturi corporis accusantium
@@ -271,199 +279,177 @@
                                 necessitatibus ullam molestias natus,
                                 doloremque praesentium repudiandae?
                                 Aspernatur, qui!</td>
-                            <td>123,5 Kc</td>
+                            <td>123,5 Kč</td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
                             <td>Lorem, ipsum dolor.</td>
                             <td>Lorem ipsum dolor sit amet.</td>
-                            <td>623.8 Kc</td>
+                            <td>623.8 Kč</td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
                             <td>Lorem, ipsum.</td>
                             <td>Lorem, ipsum dolor.</td>
-                            <td>732.9 Kc</td>
+                            <td>732.9 Kč</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-        </section>
-
-        <section id="contacts">
-            <div class=" mb-5  text-bg-light p-3">
-                <div class="row row-cols-2 mx-3 my-3">
-                    <div class="col col-lg-8 equal-height-col">
-                        <h1>Contacts</h1>
-                        <address>
-                            <ul class="list-unstyled mb-1">
-                                <li>
-                                    Ulice 777, 222 22, Obec, Nejaky kraj,
-                                    Ceska Republika
-                                </li>
-                                <li>
-                                    <a href="mailto:someone@example.com"
-                                        class="text-decoration-none"><svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="16" height="16"
-                                            fill="currentColor"
-                                            class="bi bi-envelope-fill mx-1"
-                                            viewBox="0 0 16 16">
-                                            <path
-                                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
-                                        </svg>
-                                        someone@example.com
-
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="tel:+4733378901"
-                                        class="text-decoration-none">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="16" height="16"
-                                            fill="currentColor"
-                                            class="bi bi-telephone-fill mx-1"
-                                            viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
-                                        </svg>
-                                        +47 333 78 901
-                                    </a>
-                                </li>
-                            </ul>
-                        </address>
-                    </div>
-                    <div class="col col-lg-2 equal-height-col p-2">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d384.97121636840365!2d-0.37827316508177233!3d39.4745305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4d912b9c79%3A0x116e141854b4d325!2sPl.%20del%20Dr.%20Collado%2C%206%2C%20Ciutat%20Vella%2C%2046001%20Val%C3%A8ncia%2C%20%C5%A0pan%C4%9Blsko!5e0!3m2!1scs!2scz!4v1720781874996!5m2!1scs!2scz"
-                            style="border:0;"
-                            allowfullscreen loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <h1>Contact us</h1>
-                        <form>
-                            <div class="mb-3">
-                                <label for="name"
-                                    class="form-label">Name</label>
-                                <input type="text" class="form-control"
-                                    id="name">
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email
-                                    address</label>
-                                <input type="email" class="form-control"
-                                    id="email">
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Your
-                                    message</label>
-                                <textarea class="form-control" id="message"
-                                    rows="4"></textarea>
-                            </div>
-                            <button type="submit"
-                                class="btn btn-primary">Submit</button>
-                        </form>
-                    </div>
-
-                </div>
-            </section>
-            <!-- footer -->
-
-            <section class="container">
-                <footer class="py-1 my-1">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <a href="#home"
-                                class="nav-link px-3 text-body-secondary">Home</a></li>
-                        <li class="nav-item">
-                            <a href="#about"
-                                class="nav-link px-3 text-body-secondary">About</a></li>
-                        <li class="nav-item">
-                            <a href="#products"
-                                class="nav-link px-3 text-body-secondary">Products</a></li>
-                        <li class="nav-item"><a href="#pricing"
-                                class="nav-link px-3 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item"><a href="#contacts"
-                                class="nav-link px-3 text-body-secondary">Contacts</a></li>
-                    </ul>
-                    <p class="text-center text-body-secondary">&copy; Marina
-                        Pavolova, Inc</p>
-                </footer>
-            </section>
         </div>
+    </section>
+    
+    <section id="contacts">
+        <div class=" mb-5  text-bg-light p-3">
+            <div class="row row-cols-2 mx-3 my-3">
+                <div class="col col-lg-8 equal-height-col">
+                    <h1>Contacts</h1>
+                    <address>
+                        <ul class="list-unstyled mb-1">
+                            <li>
+                                Ulice 777, 222 22, Obec, Nejaky kraj,
+                                Ceska Republika
+                            </li>
+                            <li>
+                                <a href="mailto:someone@example.com" class="text-decoration-none"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-envelope-fill mx-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                                    </svg>
+                                    someone@example.com
 
-        <!-- cookies -->
-        <div class="modal fade" id="modal" data-bs-backdrop="static"
-            data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="cookiesButton"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5 text-primary"
-                            id="cookiesButton">Cookies</h1>
-                        <button type="button" class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"></button>
-                    </div>
-                    <section class="modal-body">
-                        <details open>
-                            <summary>Technical </summary>
-                            <p>Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Itaque in suscipit earum
-                                veritatis quisquam nesciunt ipsam. Animi vel
-                                debitis, aut maiores amet iste laborum earum
-                                blanditiis eius delectus fuga suscipit.</p>
-                        </details>
-                        <details>
-                            <summary>Function </summary>
-                            <p>Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Itaque in suscipit earum
-                                veritatis quisquam nesciunt ipsam. Animi vel
-                                debitis, aut maiores amet iste laborum earum
-                                blanditiis eius delectus fuga suscipit.</p>
-                        </details>
-                        <details>
-                            <summary>Other</summary>
-                            <p>Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Itaque in suscipit earum
-                                veritatis quisquam nesciunt ipsam. Animi vel
-                                debitis, aut maiores amet iste laborum earum
-                                blanditiis eius delectus fuga suscipit.</p>
-                        </details>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:+4733378901" class="text-decoration-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-telephone-fill mx-1" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                                    </svg>
+                                    +47 333 78 901
+                                </a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="col col-lg-2 equal-height-col p-2">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d384.97121636840365!2d-0.37827316508177233!3d39.4745305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4d912b9c79%3A0x116e141854b4d325!2sPl.%20del%20Dr.%20Collado%2C%206%2C%20Ciutat%20Vella%2C%2046001%20Val%C3%A8ncia%2C%20%C5%A0pan%C4%9Blsko!5e0!3m2!1scs!2scz!4v1720781874996!5m2!1scs!2scz"
+                        style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h1>Contact us</h1>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email
+                                address</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your
+                                message</label>
+                            <textarea class="form-control" id="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
 
-                    </section>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary"
-                            data-bs-dismiss="modal">Change</button>
-                        <button type="button" class="btn btn-primary"
-                            data-bs-dismiss="modal"><strong>Accept</strong></button>
-                    </div>
+            </div>
+    </section>
+    <!-- footer -->
+
+    <section class="container">
+        <footer class="py-1 my-1">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link px-3 text-body-secondary">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link px-3 text-body-secondary">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link px-3 text-body-secondary">Products</a>
+                </li>
+                <li class="nav-item"><a href="#pricing" class="nav-link px-3 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link px-3 text-body-secondary">Contacts</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; Marina
+                Pavolova, Inc</p>
+        </footer>
+    </section>
+    </div>
+
+    <!-- cookies -->
+    <div class="modal fade" id="modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="cookiesButton" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-primary" id="cookiesButton">Cookies</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <section class="modal-body">
+                    <details open>
+                        <summary>Technical </summary>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Itaque in suscipit earum
+                            veritatis quisquam nesciunt ipsam. Animi vel
+                            debitis, aut maiores amet iste laborum earum
+                            blanditiis eius delectus fuga suscipit.</p>
+                    </details>
+                    <details>
+                        <summary>Function </summary>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Itaque in suscipit earum
+                            veritatis quisquam nesciunt ipsam. Animi vel
+                            debitis, aut maiores amet iste laborum earum
+                            blanditiis eius delectus fuga suscipit.</p>
+                    </details>
+                    <details>
+                        <summary>Other</summary>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Itaque in suscipit earum
+                            veritatis quisquam nesciunt ipsam. Animi vel
+                            debitis, aut maiores amet iste laborum earum
+                            blanditiis eius delectus fuga suscipit.</p>
+                    </details>
+
+                </section>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Change</button>
+                    <button type="button" class="btn btn-primary"
+                        data-bs-dismiss="modal"><strong>Accept</strong></button>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- js script -->
-        <script src="./bootstrap.bundle.min.js"></script>
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
+    <!-- js script -->
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
 
-                const navLinks = document.querySelectorAll('nav-link');
-            const navbarMenu = document.querySelector('#navbarNav')
+            const navLinks = document.querySelectorAll('nav-link');
+            const navbarMenu = document.querySelector('#navbarCollapse')
             const collapseNavbar = () => {
-              if(window.innerWidth < 992) {
-                if(navbarMenu.classList.contains('show')) {
-                  navbarMenu.classList.remove('show');
+                if (window.innerWidth <= 992) {
+                    if (navbarMenu.classList.contains('show')) {
+                        navbarMenu.classList.remove('show');
+                    }
                 }
-              }
             };
             navLinks.forEach(link => link.addEventListener('click, collapseNavbar'));
 
 
-            });
-            </script>
-    </body>
+        });
+    </script>
+</body>
+
 </html>
